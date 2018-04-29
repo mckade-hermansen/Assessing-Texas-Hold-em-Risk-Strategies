@@ -9,10 +9,10 @@ This project assesses risk strategies in a game of poker. It places four differe
 
 To run a full tournament locate the tournament.js file and require the files of the agents you want to be in the tournament. Next, locate the challenger_test.js file and change the ChallBot to be the specific agent you want to monitor. Then write the following commands into your command line.
 
-$ npm install
+$ npm install <br />
 $ npm test
 
-It will display every hand and the winnings of the agent that is being monitored as well as display every agents final standings at the end. 
+It will display every round and the winnings of the agent that is being monitored as well as display every agents final standings at the end. 
 
 ## How To Run a A Single Round
 
