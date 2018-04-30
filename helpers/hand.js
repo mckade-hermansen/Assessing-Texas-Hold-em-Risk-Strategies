@@ -24,7 +24,7 @@ class Hand {
 
   hasHand(hand) {
     for(let i = 0; i < this.fullHands.length; i++) {
-      if (this.fullHands[i].getName() == 'pair'){
+      if (this.fullHands[i].getName() == hand){
         return true;
       }
     }
